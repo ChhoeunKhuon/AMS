@@ -1,0 +1,1 @@
+package co.cstad.ams;import org.springframework.stereotype.Component;@Componentpublic class ArticalUtils {    public String getArticals(Artical artical){        return "getArtical" + artical.getTitle();    }}
